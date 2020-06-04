@@ -5,13 +5,13 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PhoneNoConvert")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Phone No Converter")]
+[assembly: AssemblyDescription("Convert phone numbers from local to E.164 format using libphonenumber-csharp.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PhoneNoConvert")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Taranis Software")]
+[assembly: AssemblyProduct("Phone No Converter")]
+[assembly: AssemblyCopyright("Copyright © 2020 Taranis Software")]
+[assembly: AssemblyTrademark("Taranis Software")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
