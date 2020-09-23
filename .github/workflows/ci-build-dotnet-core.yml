@@ -1,4 +1,5 @@
-name: .NET Core
+# https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions
+name: CI Build .NET Core
 
 on:
   push:
@@ -9,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
