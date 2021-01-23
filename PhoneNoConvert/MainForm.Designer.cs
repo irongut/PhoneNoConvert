@@ -42,19 +42,21 @@
             // 
             this.PhoneNoTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PhoneNoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhoneNoTextBox.Location = new System.Drawing.Point(137, 12);
+            this.PhoneNoTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PhoneNoTextBox.Location = new System.Drawing.Point(183, 18);
+            this.PhoneNoTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PhoneNoTextBox.Name = "PhoneNoTextBox";
-            this.PhoneNoTextBox.Size = new System.Drawing.Size(179, 26);
+            this.PhoneNoTextBox.Size = new System.Drawing.Size(237, 30);
             this.PhoneNoTextBox.TabIndex = 1;
             // 
             // PhoneNoLabel
             // 
             this.PhoneNoLabel.AutoSize = true;
-            this.PhoneNoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhoneNoLabel.Location = new System.Drawing.Point(12, 15);
+            this.PhoneNoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PhoneNoLabel.Location = new System.Drawing.Point(16, 23);
+            this.PhoneNoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PhoneNoLabel.Name = "PhoneNoLabel";
-            this.PhoneNoLabel.Size = new System.Drawing.Size(119, 20);
+            this.PhoneNoLabel.Size = new System.Drawing.Size(149, 25);
             this.PhoneNoLabel.TabIndex = 0;
             this.PhoneNoLabel.Text = "Phone Number:";
             this.PhoneNoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -62,12 +64,13 @@
             // ConvertButton
             // 
             this.ConvertButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ConvertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConvertButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ConvertButton.Image = ((System.Drawing.Image)(resources.GetObject("ConvertButton.Image")));
             this.ConvertButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.ConvertButton.Location = new System.Drawing.Point(338, 12);
+            this.ConvertButton.Location = new System.Drawing.Point(451, 18);
+            this.ConvertButton.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ConvertButton.Name = "ConvertButton";
-            this.ConvertButton.Size = new System.Drawing.Size(75, 65);
+            this.ConvertButton.Size = new System.Drawing.Size(100, 100);
             this.ConvertButton.TabIndex = 4;
             this.ConvertButton.Text = "Convert";
             this.ConvertButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -77,10 +80,11 @@
             // CountryCodeLabel
             // 
             this.CountryCodeLabel.AutoSize = true;
-            this.CountryCodeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CountryCodeLabel.Location = new System.Drawing.Point(21, 54);
+            this.CountryCodeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CountryCodeLabel.Location = new System.Drawing.Point(28, 83);
+            this.CountryCodeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CountryCodeLabel.Name = "CountryCodeLabel";
-            this.CountryCodeLabel.Size = new System.Drawing.Size(110, 20);
+            this.CountryCodeLabel.Size = new System.Drawing.Size(140, 25);
             this.CountryCodeLabel.TabIndex = 2;
             this.CountryCodeLabel.Text = "Country Code:";
             this.CountryCodeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -89,19 +93,23 @@
             // 
             this.CountryCodeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.CountryCodeTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CountryCodeTextBox.Location = new System.Drawing.Point(137, 51);
+            this.CountryCodeTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.CountryCodeTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CountryCodeTextBox.Location = new System.Drawing.Point(183, 78);
+            this.CountryCodeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.CountryCodeTextBox.MaxLength = 2;
             this.CountryCodeTextBox.Name = "CountryCodeTextBox";
-            this.CountryCodeTextBox.Size = new System.Drawing.Size(179, 26);
+            this.CountryCodeTextBox.Size = new System.Drawing.Size(237, 30);
             this.CountryCodeTextBox.TabIndex = 3;
             // 
             // ResultsLabel
             // 
             this.ResultsLabel.AutoSize = true;
-            this.ResultsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResultsLabel.Location = new System.Drawing.Point(12, 89);
+            this.ResultsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ResultsLabel.Location = new System.Drawing.Point(16, 137);
+            this.ResultsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ResultsLabel.Name = "ResultsLabel";
-            this.ResultsLabel.Size = new System.Drawing.Size(67, 20);
+            this.ResultsLabel.Size = new System.Drawing.Size(82, 25);
             this.ResultsLabel.TabIndex = 5;
             this.ResultsLabel.Text = "Results:";
             this.ResultsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -111,19 +119,20 @@
             this.ResultsTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ResultsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResultsTextBox.Location = new System.Drawing.Point(16, 112);
+            this.ResultsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ResultsTextBox.Location = new System.Drawing.Point(21, 172);
+            this.ResultsTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ResultsTextBox.Multiline = true;
             this.ResultsTextBox.Name = "ResultsTextBox";
             this.ResultsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.ResultsTextBox.Size = new System.Drawing.Size(397, 326);
+            this.ResultsTextBox.Size = new System.Drawing.Size(528, 499);
             this.ResultsTextBox.TabIndex = 6;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 451);
+            this.ClientSize = new System.Drawing.Size(572, 694);
             this.Controls.Add(this.ResultsTextBox);
             this.Controls.Add(this.ResultsLabel);
             this.Controls.Add(this.CountryCodeLabel);
@@ -131,9 +140,10 @@
             this.Controls.Add(this.ConvertButton);
             this.Controls.Add(this.PhoneNoLabel);
             this.Controls.Add(this.PhoneNoTextBox);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(890, 980);
-            this.MinimumSize = new System.Drawing.Size(445, 490);
+            this.MaximumSize = new System.Drawing.Size(1181, 1482);
+            this.MinimumSize = new System.Drawing.Size(587, 729);
             this.Name = "MainForm";
             this.ShowIcon = false;
             this.Text = "Convert Phone Numbers to E.164";
