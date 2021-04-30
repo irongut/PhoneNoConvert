@@ -5,8 +5,3 @@ updates:
   schedule:
     interval: daily
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: libphonenumber-csharp
-    versions:
-    - 8.12.17
-    - 8.12.18
